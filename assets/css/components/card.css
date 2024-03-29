@@ -86,6 +86,7 @@ blockquote.kg-blockquote-alt {
 
 .kg-card.kg-button-card .kg-btn {
     font-size: 1em;
+    color: var(--color-secondary-text) !important;
 }
 
 /* Header
@@ -131,10 +132,10 @@ blockquote.kg-blockquote-alt {
 /* Audio
 /* ---------------------------------------------------------- */
 
-.has-light-text .kg-audio-card button {
-    color: #fff;
+.kg-audio-card button {
+    color: var(--color-secondary-text) !important;
 }
 
-.has-light-text .kg-audio-card .kg-audio-volume-slider {
-    color: rgb(255 255 255 / 0.3)
+.kg-audio-card .kg-audio-volume-slider {
+    color: var(--color-secondary-text) !important;
 }
